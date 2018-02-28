@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<!-- required -->
+<entry key="name">uniquename</entry>
+<entry key="smtpHost">mail.domain.com</entry>
+<entry key="smtpUsername">null@domain.com</entry>
+<entry key="smtpPassword"></entry>
+<entry key="maxSizeMessage">500</entry>  <!-- characters -->
+<entry key="maxSizeAddress">320</entry>  <!-- characters, based on RFC 2822 and 2821 recommendations, max is 320 -->
+<entry key="maxSizeSubject">998</entry>  <!-- characters, based on RFC 2822 and 2821 recommendations, arbitrarily picking one line which is 998 -->
+<entry key="maxPerMinute">20</entry>
+<entry key="maxPerDay">200</entry>
+<entry key="to">null@domain.com</entry>
+<!-- optional -->
+<entry key="cc"></entry>
+<entry key="bcc"></entry>
+<entry key="defaultFrom">null@domain.com</entry>
+<entry key="requiresPopToUseSmtp">false</entry>	<!--  some mailers require you to log into POP before you can send SMTP -->
+<entry key="popHost"></entry>
+<entry key="popUsername"></entry>
+<entry key="popPassword"></entry>
+</properties>
