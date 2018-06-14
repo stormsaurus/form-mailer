@@ -10,4 +10,4 @@ A simple mailer that allows web forms on a website to send emails through a serv
 
 ## Notes
 
-It's very old and dated now.  Was used in a previous life to enable emailing form values.
+It's very old and dated now, possibly circa 2008.  Was used in a previous life to enable emailing form values.
